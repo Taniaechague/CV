@@ -49,6 +49,10 @@ st.text(" 🔹 Micro and macroeconomic analysis with focus on Sectors of Activit
          "🔹 Preparation of Statistical-Economic Reports for Informed Decision Making \n"
          )
 
+st.subheader("📌 SQL & Power BI Teacher - IDPE")
+st.write("📅 2025 - Current")
+st.write("---")
+
 st.subheader("📌 Economics and Finance Teacher - UTU")
 st.write("📅 2012 - 2014")
 st.write("---")
@@ -60,6 +64,9 @@ st.write("📅 2007 - 2012")
 
 st.subheader("**📌 Data Scientist** - IBM")
 st.write("📅 2023 - 2025")
+
+st.subheader("**📌 Data Analist with Python** - IBM")
+st.write("📅 2025 - Current")
 
 st.subheader("**📌 Master in Economics** - Udelar")
 st.write("📅 Estimated completion date: Feb, 2026")
@@ -109,6 +116,7 @@ st.write("""
 -  SQL
 -  R
 -  Tableau
+-  Power BI
 -  Scikit-learn
 -  TensorFlow
 -  PyTorch
@@ -133,4 +141,5 @@ if st.checkbox("Download CV in PDF"):
     components.html(
         f'<iframe src="{pdf_url}" width="700" height="1000" type="application/pdf"></iframe>',
         height=1000,
+
     )
