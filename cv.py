@@ -137,9 +137,10 @@ st.write("---")
 
 st.header("📄 Download CV in PDF")
 if st.checkbox("Download CV in PDF"):
-    pdf_url = "https://raw.githubusercontent.com/Taniaechague/CV/main/CV_TE.pdf"
+    pdf_url = "https://raw.githubusercontent.com/Taniaechague/CV/main/CV_TE_.pdf"
     components.html(
         f'<iframe src="{pdf_url}" width="700" height="1000" type="application/pdf"></iframe>',
         height=1000,
 
     )
+
